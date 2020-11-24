@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Conceptos básicos de CSS</title>
+</head>
+<h1>Introducción básica de CSS</h1>
+<h2>Seleccionar por nombre (etiqueta)</h2>
+    <p>Este comando <strong>(p { color: rgb(255, 0, 0) ;} o también p {color:blue} )</strong> sirve para darle color a un párrafo.</p>
+    <br>Nos quedaría algo como esto 
+    <br> <img src="imagenes/colorparrafo.JPG" width="250">
+
+    <style>
+    p {
+        color:rgb(58, 58, 143)
+    }
+    h2 {
+        color: rgb(170, 129, 17);
+    }
+    #ejemplo {
+        background-color: rgb(19, 212, 132);
+    }
+    .explicacion {
+        background-color: rgb(230, 178, 178);
+    }
+    </style>
+    <h2>Seleccionando por id(#)</h2>
+    <p id="ejemplo">Esta línea se mostrara con un color de fondo específico mediante una id llamada ejemplo<br>
+        Empleamos esto cuando queremos dar estilo sólo a una cosa. <br>
+Es decir, si quieres darle color a un párrafo concreto, escribe lo siguiente  p id="ejemplo">el texto que escribas /p <br>
+y en head, dentro de style escribes #ejemplo{color:green;}.
+
+
+    </p>
+    <h2>Seleccionando por clase( . )</h2>
+    Este comando es muy similar a la selección por id,<br>
+pero la única diferencia es que seleccionando por clases podemos seleccionar varias etiquetas. El comando quedaría escrito así:<br>
+<br>
+<img src="imagenes/clasescolor.JPG" width="350">
+<body>
